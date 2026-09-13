@@ -6,6 +6,7 @@
 
 | 파일 | 화면 |
 |---|---|
+| `Login.dc.html` | 로그인 — 이메일로 받은 6자리 숫자 |
 | `Onboarding.dc.html` | 아기 등록 |
 | `Main.dc.html` | 타임라인 (홈) |
 | `MomentDetail.dc.html` | 모먼트 상세 — 사진별 문구 |
