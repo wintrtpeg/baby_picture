@@ -1,2 +1,7 @@
 # 캔버스 빌드 산출물 — design/*.dc.html + canvas.json 에서 다시 생성됨 (약 2.5MB)
 design/baby-album-app-ui.html
+
+# 안드로이드 서명 키 — 절대 커밋 금지
+android/key.properties
+*.jks
+*.keystore
