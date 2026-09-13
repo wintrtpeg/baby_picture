@@ -1,0 +1,24 @@
+{
+  "pages": [
+    { "id": "page-1", "name": "화면" },
+    { "id": "page-2", "name": "처음 3안" }
+  ],
+  "artboards": [
+    { "file": "Onboarding.dc.html",  "page": "page-1", "x": 0,    "y": 0,    "w": 390, "h": 844, "title": "1 · 아기 등록" },
+    { "file": "Main.dc.html",        "page": "page-1", "x": 490,  "y": 0,    "w": 390, "h": 844, "title": "2 · 타임라인" },
+    { "file": "MomentDetail.dc.html","page": "page-1", "x": 980,  "y": 0,    "w": 390, "h": 844, "title": "3 · 모먼트 상세" },
+    { "file": "CaptionFlow.dc.html", "page": "page-1", "x": 1470, "y": 0,    "w": 390, "h": 844, "title": "4 · 문구 채우기" },
+    { "file": "Upload.dc.html",      "page": "page-1", "x": 0,    "y": 1060, "w": 390, "h": 844, "title": "5 · 업로드" },
+    { "file": "AlbumExport.dc.html", "page": "page-1", "x": 490,  "y": 1060, "w": 390, "h": 844, "title": "6 · 앨범 내보내기" },
+    { "file": "Family.dc.html",      "page": "page-1", "x": 980,  "y": 1060, "w": 390, "h": 844, "title": "7 · 가족 초대" },
+
+    { "file": "DirectionA.dc.html",  "page": "page-2", "x": 0,   "y": 0, "w": 390, "h": 844, "title": "A · 따뜻한 편집" },
+    { "file": "DirectionB.dc.html",  "page": "page-2", "x": 490, "y": 0, "w": 390, "h": 844, "title": "B · 부드러운 미니멀 (선택)" },
+    { "file": "DirectionC.dc.html",  "page": "page-2", "x": 980, "y": 0, "w": 390, "h": 844, "title": "C · 사진 우선" }
+  ],
+  "annotations": [
+    { "id": "note-flow", "page": "page-1", "x": 0, "y": -330, "w": 880, "text": "B를 기본으로, 더 정제된 방향으로 다시 잡았습니다.\n거의 무채색 UI에 사진만 색을 갖게 했고, 숫자는 세리프(Instrument Serif) · 본문은 IBM Plex Sans KR · 주요 버튼은 잉크 블랙입니다.\n\n윗줄  아기 등록 → 타임라인 → 모먼트 상세 → 문구 채우기\n아랫줄  업로드 → 앨범 내보내기 → 가족 초대\n\n사진은 전부 자리표시자입니다. 댓글 기능은 빠졌고, 가족은 '문구를 함께 쓰는' 역할로만 참여합니다." },
+    { "id": "note-old", "page": "page-2", "x": 0, "y": -150, "w": 880, "text": "처음에 보여드린 3안입니다. B를 골라 주셔서 '화면' 페이지에서 다듬었습니다." }
+  ],
+  "launch": { "view": "canvas", "page": "page-1" }
+}
